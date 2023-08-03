@@ -10,7 +10,7 @@ public class ArraysLists {
         // capacidadVector = capacidadVector * 2;
 
         // CapacidadArrayList = CapacidadArrayList + (CapacidadArrayList * 0.5)
-        ArrayList<String> lista = new ArrayList<String>();
+        ArrayList<String> lista = new ArrayList<>();
 
         // agregar valores a la lista
         lista.add("Elemento A");
@@ -34,7 +34,7 @@ public class ArraysLists {
         }
 
         // asignar datos a un array tradicional
-        String array[] = new String[lista.size()];
+        String[] array = new String[lista.size()];
 
         for (int i = 0; i < lista.size(); i++){
             array[i] = lista.get(i);
